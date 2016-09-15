@@ -23,7 +23,7 @@ body {
   background-color: #FFF;
   width: 100%;
   height: 100%;
-  margin: 0 auto;
+  padding: 0 5.3rem;
 }
 
 ul {
@@ -52,10 +52,45 @@ a:hover {
   color: #8B8B8B;
 }
 
+p {
+  line-height: 1.2em;
+}
+
+/* ------------------------------------------------- */
+/* jumbotron */
+/* ------------------------------------------------- */
+
+.jumbotron h1 {
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 1.4em;
+  padding: 3rem 0;
+  text-transform: lowercase;
+  width: 40%;
+}
+
 /* ------------------------------------------------- */
 /* nav */
 /* ------------------------------------------------- */
 
 nav {
-  padding: 5.3rem;
+  padding: 5.3rem 0 0 0;
+}
+
+/* ------------------------------------------------- */
+/* projects */
+/* ------------------------------------------------- */
+
+.projects .first-line {
+  margin-bottom: -5px;
+}
+
+.project {
+  margin: 2.3rem 0;
+  text-transform: lowercase;
+  width: 40%;
+}
+
+.tech {
+  background-color: #E1EED4;
 }
