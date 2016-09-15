@@ -74,12 +74,23 @@ p {
 /* ------------------------------------------------- */
 
 nav {
+  display: flex;
+  justify-content: space-between;
   padding: 5.3rem 0 0 0;
+}
+
+nav li {
+  float: right;
+  margin-left: 2rem;
 }
 
 /* ------------------------------------------------- */
 /* projects */
 /* ------------------------------------------------- */
+
+.projects {
+  margin-bottom: 2rem;
+}
 
 .projects .first-line {
   margin-bottom: -5px;
