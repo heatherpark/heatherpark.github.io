@@ -34,3 +34,28 @@ section, nav {
   margin: 0 auto;
   max-width: 1140px;
 }
+
+/* ------------------------------------------------- */
+/* fonts */
+/* ------------------------------------------------- */
+
+a {
+  border-bottom: 3px solid #E1EED4;
+  color: #636262;
+  font-weight: 700;
+  padding-bottom: 2px;
+  text-decoration: none;
+  transition: color 0.4s;
+}
+
+a:hover {
+  color: #8B8B8B;
+}
+
+/* ------------------------------------------------- */
+/* nav */
+/* ------------------------------------------------- */
+
+nav {
+  padding: 5.3rem;
+}
