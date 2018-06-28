@@ -70,7 +70,7 @@ p {
 }
 
 h4 {
-  margin-bottom: 0.7rem;
+  margin-bottom: 1rem;
 }
 
 /* ------------------------------------------------- */
@@ -112,12 +112,9 @@ nav li {
   margin: 5rem auto;
 }
 
-.projects .first-line {
-  margin-bottom: -5px;
-}
-
 .project {
   text-transform: lowercase;
+  margin-bottom: 5rem;
 }
 
 .tech-container {
@@ -130,6 +127,15 @@ nav li {
 
 .first-line {
   font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  margin: 1.7rem 0;
+}
+
+.project-link:not(:last-child) {
+  margin-right: 1.4rem;
 }
 
 /* ------------------------------------------------- */
