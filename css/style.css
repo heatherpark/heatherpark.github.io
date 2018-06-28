@@ -69,6 +69,10 @@ p {
   margin-top: 0.85rem;
 }
 
+h4 {
+  margin-bottom: 0.7rem;
+}
+
 /* ------------------------------------------------- */
 /* nav */
 /* ------------------------------------------------- */
@@ -104,17 +108,28 @@ nav li {
   margin: 4rem auto 5rem;
 }
 
+.projects:not(:first-child) {
+  margin: 5rem auto;
+}
+
 .projects .first-line {
   margin-bottom: -5px;
 }
 
 .project {
-  margin: 2.5rem 0;
   text-transform: lowercase;
+}
+
+.tech-container {
+  margin-bottom: 1.1rem;
 }
 
 .tech {
   background-color: #E1EED4;
+}
+
+.first-line {
+  font-style: italic;
 }
 
 /* ------------------------------------------------- */
